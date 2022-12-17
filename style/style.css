@@ -1,0 +1,57 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+h1 {
+    font-size: 72px;
+}
+h2 {
+    font-size: 48px;
+}
+h3 {
+    font-size: 36px;
+}
+h4 {
+    font-size: 28px;
+}
+h5 {
+    font-size: 24px;
+}
+h6 {
+    font-size: 18px;
+}
+p {
+    font-size: 16px;
+}
+a {
+    text-decoration: none;
+    color: #000000;
+}
+.container {
+    max-width: 1280px;
+    padding: 0 20px;
+}
+
+/* Header */
+
+.header__inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 0;
+}
+.header__inner .logo a img {
+    max-width: 190px;
+}
+.header__inner .nav {
+    display: flex;
+    gap: 20px;
+}
+.header__right a svg {
+    width: 15px;
+}
+.header__right {
+	display: flex;
+	gap: 13px;
+}
